@@ -1,0 +1,19 @@
+The file smartphone.txt has been extracted from the file:
+- 'features_info.txt': Shows information about the variables used on the feature vector.
+- 'features.txt': List of all features.
+- 'activity_labels.txt': Links the class labels with their activity name.
+- 'train/X_train.txt': Training set.
+- 'train/y_train.txt': Training labels.
+- 'test/X_test.txt': Test set.
+- 'test/y_test.txt': Test labels.
+- 'train/subject_train.txt': Person engaged in the activity 70% of the total
+- 'test/subject_test.txt' : Person engage in the activity 30% of the total
+########################### PROCESS ######
+1) The Test & Train data were merged to form one file (Total 3 files)
+2) The 3 files where column bind to form a data set 
+3) column names were taken from feature file 
+4) mean and standard Deviation column were extracted and new dataset was formed aggregating activity and subject 
+####### smartphone.txt####
+1) Activity: There are total six activity performed : 1 WALKING, 2 WALKING_UPSTAIRS, 3 WALKING_DOWNSTAIRS, 4 SITTING, 5 STANDING, 6 LAYING
+2) Subject: Total 30 subject participated 
+3-81) Measurement in the form of mean and standard deviation. The measurement is a median of the original obsevation  from X_train & X_test file.
