@@ -16,7 +16,11 @@ The file smartphone.txt has been extracted from the file:
 ####### smartphone.txt####
 1) Activity: There are total six activity performed : 1 WALKING, 2 WALKING_UPSTAIRS, 3 WALKING_DOWNSTAIRS, 4 SITTING, 5 STANDING, 6 LAYING
 2) Subject: Total 30 subject participated 
-3-81) Measurement in the form of mean and standard deviation. The measurement is a median of the original obsevation  from X_train & X_test file.
+3-81) Measurement in the form of mean and1 standard deviation. 
+The measurement is a median of the original obsevation  from X_train & X_test file.
+The Column name has Body, Gyro, Acceleration, time etc.
+There are 2 equipment for measurement ACCELERATOR, GYROSCOPE. Measurement are in TIME & FRQUENCY domain
+ACCELERATOR has 2 component BODY & GRAVITY
 'data.frame':   180 obs. of  81 variables:
  $ Activity                                                 : Factor w/ 6 levels "WALKING","WALKING_UPSTAIRS",..: 1 2 3 4 5 6 1 2 3 4 ...
  $ Subject                                                  : Factor w/ 30 levels "1","2","3","4",..: 1 1 1 1 1 1 2 2 2 2 ...
